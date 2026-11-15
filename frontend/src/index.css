@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-graphite: #252a29;
+  --color-graphite-dark: #1b1f1e;
+  --color-graphite-light: #323837;
+  --color-warm-ivory: #f4f2ec;
+  --color-white: #ffffff;
+  --color-muted-olive: #747a62;
+  --color-deep-burgundy: #713f42;
+  --color-antique-brass: #a48658;
+  --color-app-border: #dedad0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-warm-ivory, #f4f2ec);
+  color: var(--color-graphite, #252a29);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Accessible focus ring across interactive elements */
+:focus-visible {
+  outline: 2px solid #a48658;
+  outline-offset: 1px;
+}
+
+/* Subtle, sophisticated selection */
+::selection {
+  background-color: #a48658;
+  color: #ffffff;
+}
+
+/* Editorial serif utility for major headings */
+.font-editorial {
+  font-family: 'Georgia', 'Cambria', 'Times New Roman', serif;
+  letter-spacing: -0.015em;
+}
+
+/* Clean scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f2ec;
+}
+::-webkit-scrollbar-thumb {
+  background: #dedad0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a48658;
+}
+

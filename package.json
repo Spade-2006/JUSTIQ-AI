@@ -1,0 +1,17 @@
+{
+  "name": "justiq-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JUSTIQ - AI-powered court judgment summarization and legal management platform",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "build": "npm run build:frontend && npm run build:backend",
+    "lint:frontend": "npm --prefix frontend run lint",
+    "lint:backend": "npm --prefix backend run lint",
+    "lint": "npm run lint:frontend && npm run lint:backend",
+    "install:all": "npm --prefix frontend install && npm --prefix backend install"
+  }
+}
