@@ -2,7 +2,7 @@
 
 AI-Powered District Court Judgment Summarization & Legal Case Management Platform.
 
-JUSTIQ is a specialized platform tailored for District Court practitioners, advocates, and judicial chambers. Users can upload district court orders and judgments, extract facts and ratio decidendi, track trial hearings and cause lists, discover relevant district precedents, and manage active civil and criminal dockets efficiently.
+JUSTIQ is a specialized platform tailored for District Court practitioners, advocates, and judicial chambers. Users can upload district lengthy court orders and judgments, extract facts and ratio decidendi, track trial hearings and cause lists, discover relevant district precedents, and manage active civil and criminal dockets efficiently.
 
 ---
 
